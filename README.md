@@ -7,7 +7,7 @@ The goal of this project is to apply **data cleaning**, **exploratory data analy
 
 ##  Key Features
 
-- ** Data Cleaning:**  
+- ** Data Cleaning: **  
   - Handled missing values  
   - Ensured correct data types  
   - Standardized column names for consistency  
