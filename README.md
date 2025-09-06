@@ -1,13 +1,16 @@
 # COVID-19 Data Analysis Project
 
-This repository contains a comprehensive data analysis project using the **`covid_19_data.csv`** dataset.  
+This repository contains a comprehensive data analysis project using the **[`covid_19_data.csv`](./covid_19_data.csv)** dataset.  
 The goal of this project is to apply **data cleaning**, **exploratory data analysis (EDA)**, and **basic machine learning** concepts to understand and visualize global COVID-19 trends.
 
 ---
-## Dataset Information
 
-The dataset used in this project is **[COVID-19 Data from Kaggle](https://www.kaggle.com/)**.  
-It contains global case reports of COVID-19, including information on:
+## 📊 Dataset Information
+
+The dataset used in this project—**[`covid_19_data.csv`](./covid_19_data.csv)**—was sourced from Kaggle:  
+👉 [Novel Corona Virus 2019 Dataset (by Sudalai Rajkumar)](https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset)
+
+It contains global case reports of COVID-19, including:
 
 - **Observation Date** → Date when the record was logged  
 - **Province/State** → Sub-region (if available)  
@@ -17,7 +20,7 @@ It contains global case reports of COVID-19, including information on:
 - **Deaths** → Number of deaths caused by COVID-19  
 - **Recovered** → Number of recoveries reported  
 
-###  Notes on the Dataset
+### 📌 Notes on the Dataset
 - The dataset was **sourced from Kaggle’s COVID-19 repository**.  
 - It is regularly updated with global case data.  
 - Data may contain **missing or inconsistent values**, which were cleaned during the preprocessing step in this project.  
@@ -25,7 +28,7 @@ It contains global case reports of COVID-19, including information on:
 
 ---
 
-##  Key Features
+## 🚀 Key Features
 
 - **Data Cleaning:**  
   - Handled missing values  
@@ -48,17 +51,13 @@ It contains global case reports of COVID-19, including information on:
 
 ---
 
-##  Getting Started
+## ⚡ Getting Started
 
 ### 1. Clone this repository
 ```bash
 git clone https://github.com/okayprashant/covid19-data-analysis.git
 cd covid19-data-analysis
 ```
-## 2. Install Dependencies
-
-Make sure you have **Python 3.x** installed.  
-Install the required libraries using pip:
-
-```bash
+## 2. Install Dependencies Make sure you have **Python 3.x** installed. Install the required libraries using pip:
+bash
 pip install pandas matplotlib seaborn scikit-learn
