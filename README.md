@@ -7,13 +7,13 @@ The goal of this project is to apply **data cleaning**, **exploratory data analy
 
 ## 📊 Dataset Information
 
-The dataset used in this project—**[`covid_19_data.csv`](./covid_19_data.csv)**—was sourced from Kaggle:  
+The dataset used in this project-**[`covid_19_data.csv`](./covid_19_data.csv)**-was sourced from Kaggle:  
 👉 [Novel Corona Virus 2019 Dataset (by Sudalai Rajkumar)](https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset)
 
 It contains global case reports of COVID-19, including:
 
 - **Observation Date** → Date when the record was logged  
-- **Province/State** → Sub-region (if available)  
+- **Province/State** → Sub-region
 - **Country/Region** → Country name  
 - **Last Update** → Time when the record was last updated  
 - **Confirmed** → Number of confirmed COVID-19 cases  
