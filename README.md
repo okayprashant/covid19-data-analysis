@@ -4,8 +4,28 @@ This repository contains a comprehensive data analysis project using the **`covi
 The goal of this project is to apply **data cleaning**, **exploratory data analysis (EDA)**, and **basic machine learning** concepts to understand and visualize global COVID-19 trends.
 
 ---
+## Dataset Information
 
-## 🚀 Key Features
+The dataset used in this project is **[COVID-19 Data from Kaggle](https://www.kaggle.com/)**.  
+It contains global case reports of COVID-19, including information on:
+
+- **Observation Date** → Date when the record was logged  
+- **Province/State** → Sub-region (if available)  
+- **Country/Region** → Country name  
+- **Last Update** → Time when the record was last updated  
+- **Confirmed** → Number of confirmed COVID-19 cases  
+- **Deaths** → Number of deaths caused by COVID-19  
+- **Recovered** → Number of recoveries reported  
+
+###  Notes on the Dataset
+- The dataset was **sourced from Kaggle’s COVID-19 repository**.  
+- It is regularly updated with global case data.  
+- Data may contain **missing or inconsistent values**, which were cleaned during the preprocessing step in this project.  
+- Column names were standardized for easier handling in Python (e.g., lowercase, no spaces).  
+
+---
+
+##  Key Features
 
 - **Data Cleaning:**  
   - Handled missing values  
@@ -28,7 +48,7 @@ The goal of this project is to apply **data cleaning**, **exploratory data analy
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### 1. Clone this repository
 ```bash
