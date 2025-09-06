@@ -58,6 +58,8 @@ It contains global case reports of COVID-19, including:
 git clone https://github.com/okayprashant/covid19-data-analysis.git
 cd covid19-data-analysis
 ```
-## 2. Install Dependencies Make sure you have **Python 3.x** installed. Install the required libraries using pip:
+## 2. Install Dependencies
+
+Make sure you have **Python 3.x** installed. Install the required libraries using pip:
 bash
 pip install pandas matplotlib seaborn scikit-learn
