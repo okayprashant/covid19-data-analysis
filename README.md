@@ -5,23 +5,40 @@ The goal of this project is to apply **data cleaning**, **exploratory data analy
 
 ---
 
-##  Key Features
+## 🚀 Key Features
 
-- ** Data Cleaning: **  
+- **Data Cleaning:**  
   - Handled missing values  
   - Ensured correct data types  
   - Standardized column names for consistency  
 
-- ** Exploratory Data Analysis (EDA):**  
+- **Exploratory Data Analysis (EDA):**  
   - Aggregations to summarize the dataset  
   - Top countries by confirmed cases  
   - Mortality and recovery rates calculation  
 
-- ** Unsupervised Learning (K-Means Clustering):**  
+- **Unsupervised Learning (K-Means Clustering):**  
   - Grouped countries with similar case profiles  
   - Identified hidden patterns in the data  
 
-- ** Data Visualization:**  
+- **Data Visualization:**  
   - Plots generated using **matplotlib** and **seaborn**  
   - Scatter plot for visualizing clusters  
   - Informative charts for better understanding  
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone this repository
+```bash
+git clone https://github.com/okayprashant/covid19-data-analysis.git
+cd covid19-data-analysis
+```
+## 🛠️ Install Dependencies
+
+Make sure you have **Python 3.x** installed.  
+Install the required libraries using pip:
+
+```bash
+pip install pandas matplotlib seaborn scikit-learn
