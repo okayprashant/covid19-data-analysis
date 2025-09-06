@@ -35,7 +35,7 @@ The goal of this project is to apply **data cleaning**, **exploratory data analy
 git clone https://github.com/okayprashant/covid19-data-analysis.git
 cd covid19-data-analysis
 ```
-## 🛠️ Install Dependencies
+## 2. Install Dependencies
 
 Make sure you have **Python 3.x** installed.  
 Install the required libraries using pip:
